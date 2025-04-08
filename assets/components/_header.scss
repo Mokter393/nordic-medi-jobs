@@ -1,0 +1,18 @@
+/** header section start **/
+@import "../variable/variables";
+.header-section{
+    .top-main-header{
+        background-color: $primary-color;
+        width: 100%;
+        .contact-info{
+            display: flex;
+    }
+}
+}
+
+.top-header{
+    background-color: aqua;
+    width: 100%;
+}
+
+/** header section end **/
