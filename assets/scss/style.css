@@ -49,7 +49,7 @@
   font-size: 18px;
   font-family: "Outfit", sans-serif;
   font-weight: 500;
-  margin-right: 20px;
+  margin-right: 16px;
   display: flex;
   align-items: center;
 }
@@ -57,7 +57,7 @@
   font-size: 18px;
   font-family: "Outfit", sans-serif;
   font-weight: 500;
-  margin-right: 20px;
+  margin-right: 16px;
   display: flex;
   align-items: center;
 }
@@ -72,6 +72,49 @@
 }
 
 /** header section end **/
+.bannersection {
+  background-color: #CAE0C1;
+  height: auto;
+}
+.bannersection .container .main-banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bannersection .container .main-banner .banner-text {
+  width: 100%;
+  height: auto;
+  gap: 8px;
+}
+.bannersection .container .main-banner .banner-text h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.bannersection .container .main-banner .banner-text h4 {
+  font-family: "Outfit", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.bannersection .container .main-banner .banner-text .learn-more-btn {
+  padding: 18px 75px;
+  background-color: #EE7A03;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  border: 0px;
+}
+.bannersection .container .main-banner .banner-img {
+  width: 100%;
+}
+.bannersection .container .main-banner .banner-img img {
+  width: 50%;
+  height: auto;
+}
+
 * {
   margin: 0;
   padding: 0;

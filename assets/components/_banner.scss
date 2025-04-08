@@ -1,0 +1,50 @@
+@import "../variable/variables";
+
+.bannersection{
+    background-color: $bg-color;
+    height: auto;
+
+    .container{
+    .main-banner{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .banner-text{
+            width: 100%;
+            height: auto;
+            gap: 8px;
+            h1{
+                font-family: $font-outfit;
+                font-size: 60px;
+                font-weight: 700;
+                padding-bottom: 10px;
+            }
+            h4{
+                font-family: $font-outfit;
+                font-size: 30px;
+                font-weight: 400;
+                padding-bottom: 10px;
+            }
+            .learn-more-btn{
+                padding: 18px 75px;
+                    background-color: $acsent-color;
+                    color: $white-color;
+                    font-size: 18px;
+                    font-family: $font-outfit;
+                    font-weight: 500;
+                    border: 0px;
+            }
+            
+        }
+        .banner-img{
+            width: 100%;
+
+            img{
+                width: 50%;
+                height: auto;
+            }
+        }
+    }
+}
+}
