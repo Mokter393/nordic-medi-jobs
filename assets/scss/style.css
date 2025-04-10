@@ -74,31 +74,25 @@
 /** header section end **/
 .bannersection {
   background-color: #CAE0C1;
-  height: auto;
+  padding-top: 70px;
 }
-.bannersection .container .main-banner {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.bannersection .container .main-banner .banner-text {
-  width: 100%;
+.bannersection .container .row .col .banner-text {
   height: auto;
   gap: 8px;
 }
-.bannersection .container .main-banner .banner-text h1 {
+.bannersection .container .row .col .banner-text h1 {
   font-family: "Outfit", sans-serif;
   font-size: 70px;
   font-weight: 700;
   padding-bottom: 10px;
 }
-.bannersection .container .main-banner .banner-text h4 {
+.bannersection .container .row .col .banner-text h4 {
   font-family: "Outfit", sans-serif;
   font-size: 30px;
   font-weight: 400;
   padding-bottom: 10px;
 }
-.bannersection .container .main-banner .banner-text .learn-more-btn {
+.bannersection .container .row .col .banner-text .learn-more-btn {
   padding: 18px 75px;
   background-color: #EE7A03;
   color: #FFFFFF;
@@ -107,26 +101,18 @@
   font-weight: 500;
   border: 0px;
 }
-.bannersection .container .main-banner .banner-img {
-  width: 100%;
-}
-.bannersection .container .main-banner .banner-img img {
-  width: 50%;
-  height: auto;
-}
 
 .btn-section {
   background-color: #FFFFFF;
   padding: 70px 0px;
   width: 100%;
 }
-.btn-section .container .two-buttons {
-  display: flex;
+.btn-section .container .button-one {
   justify-content: center;
   align-items: center;
   gap: 50px;
 }
-.btn-section .container .two-buttons .employer-btn {
+.btn-section .container .button-one .employer-btn {
   padding: 30px 100px;
   background-color: #188100;
   color: #FFFFFF;
@@ -135,7 +121,12 @@
   font-weight: 400;
   border: 0px;
 }
-.btn-section .container .two-buttons .job-seekers-btn {
+.btn-section .container .button-two {
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.btn-section .container .button-two .job-seekers-btn {
   padding: 30px 100px;
   background-color: #EE7A03;
   color: #FFFFFF;
@@ -143,6 +134,45 @@
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   border: 0px;
+}
+
+.working-process-section {
+  background-color: #CAE0C1;
+  padding: 100px 0px;
+}
+.working-process-section .container .wp-title {
+  text-align: center;
+  padding: 30px 0px 100px 0px;
+}
+.working-process-section .container .wp-title h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: #13230B;
+}
+.working-process-section .container .icon-box {
+  gap: 30px;
+}
+.working-process-section .container .icon-box .wp-icon {
+  text-align: center;
+  padding-bottom: 22px;
+}
+.working-process-section .container .icon-box .wp-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.working-process-section .container .icon-box .wp-text h3 {
+  font-family: "Outfit", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+.working-process-section .container .icon-box .wp-text p {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
 }
 
 * {

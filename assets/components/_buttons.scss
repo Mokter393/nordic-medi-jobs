@@ -5,8 +5,7 @@
     padding: 70px 0px;
     width: 100%;
     .container{
-    .two-buttons{
-        display: flex;
+    .button-one{
         justify-content: center;
         align-items: center;
         gap: 50px;
@@ -20,6 +19,12 @@
                     font-weight: 400;
                     border: 0px;
         }
+        
+    }
+    .button-two{
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
         .job-seekers-btn{
             padding: 30px 100px;
                     background-color: $acsent-color;

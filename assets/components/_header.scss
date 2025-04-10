@@ -1,6 +1,9 @@
 /** header section start **/
 @import "../variable/variables";
 
+
+
+
 .header-section{
     .top-header{
         background-color: $primary-color;
@@ -10,6 +13,25 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+        // .contact-info{
+        //     display: flex;
+        //     gap: 32px;
+        //     color: $white-color;
+        //     font-family: $font-outfit;
+        //     font-size: $font-size-p;
+        //     font-weight: $font-weight-p;
+        //     align-items: center;
+
+        //     p{
+        //         margin-bottom: 0px;
+        //     }
+        //     }
+        // .social-icon{
+        //     display: flex;
+        //     gap: 18px;
+        //     align-items: center;
+        //     justify-content: end;
+        // }
         .contact-info{
             display: flex;
             gap: 32px;
@@ -30,6 +52,10 @@
             justify-content: end;
         }
         }
+
+        
+
+
 }
 .bottom-header{
             background-color: $white-color;

@@ -10,7 +10,7 @@
 <body>
      <!-- header section start -->
     <header class="header-section">
-        <div class="top-header">
+        <!-- <div class="top-header">
             <div class="container container-top-header">
                 <div class="top-main-header">
                     <div class="contact-info">
@@ -24,7 +24,30 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+
+
+        <div class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info d-flex">
+                            <div class="email"><p>info@nordicmedijobs.com</p></div>
+                            <div class="phone"><p>+358 44 5475475</p></div>
+                        </div>
+                    </div>
+                    <div class="col justify-content-end">
+                        <div class="social-icon">
+                            <a href="https://web.whatsapp.com/" target="_blank"><img src="./assets/images/whatsapp-icon.svg" alt="whatsapp icon"></a>
+                            <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/instagram-icon.svg" alt="Instagram icon"></a>
+                            <a href="https://www.facebook.com/" target="_blank"><img src="./assets/images/facebook-icon.svg" alt="facebook icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
         <div class="bottom-header">
             <div class="container-bottom-header">
                 <div class="bottom-main-header">
@@ -32,7 +55,7 @@
                         <div class="container">
                           <a class="navbar-brand nav-logo-img" href="#"><img src="./assets/images/Nordic Medi Jobs logo.png" alt=""></a>
                           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon">Apply Now</span>
+                            <span class="navbar-toggler-icon"></span>
                           </button>
                           <div class="collapse navbar-collapse nav-items" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
@@ -41,7 +64,7 @@
                               <a class="nav-link nav-item" href="#">Services</a>
                               <a class="nav-link nav-item" href="#">Life of Nurse in Finland</a>
                               <a class="nav-link nav-item" href="#">Contact</a>
-                              <a class="nav-link nav-item" href="#"><button class="apply-now-btn">Apply now</button></a>
+                              <a class="nav-link nav-item" href="#"><button type="button" class="btn apply-now-btn">Apply now</button></a>
                             </div>
                           </div>
                         </div>
@@ -53,9 +76,9 @@
     <!-- header section end -->
 
      <!-- banner section start -->
-    <section class="bannersection">
+    <!-- <section class="bannersection">
         <div class="container"> 
-            <div class="main-banner">
+            <div class="main-banner d-flex pt-2">
                 <div class="banner-text">
                     <h1>Skilled Nurse?<br>Want to migrate to<br>Nordic Country?</h1>
                     <h4>We are here to help you. </h4>
@@ -63,27 +86,111 @@
                 </div>
             
             
-                <div class="banner-image">
-                    <img src="./assets/images/banner-img.png" alt="patient care">
+                <div class="banner-image align-items-end">
+                    <img src="./assets/images/banner-img.png" class="img-fluid" alt="patient care">
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+
+    <div class="bannersection">
+        <div class="container">
+            <div class="row row-cols-sm-auto">
+                <div class="col">
+                    <div class="banner-text">
+                        <h1>Skilled Nurse?<br>Want to migrate to<br>Nordic Country?</h1>
+                        <h4>We are here to help you. </h4>
+                        <a href="#"><button class="learn-more-btn">LEARN MORE</button></a>
+                    </div>
+                </div>
+                <div class="col justify-content-end">
+                    <div class="banner-image align-items-end justify-content-end">
+                        <img src="./assets/images/banner-img.png" class="img-fluid" alt="patient care">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
       <!-- banner section end -->
 
       <!-- button section start -->
-       <section class="btn-section">
+       <!-- <section class="btn-section">
         <div class="container">
             <div class="two-buttons">
                 <a href="#"><button class="employer-btn">EMPLOYER</button></a>
                 <a href="#"><button class="job-seekers-btn">JOB SEEKERS</button></a>
             </div>
         </div>
-       </section>
+       </section> -->
+
+
+       <div class="btn-section">
+        <div class="container">
+            <div class="row row-cols-sm-auto justify-content-center">
+                <div class="button-one">
+                    <a href="#"></a><button type="button" class="btn employer-btn">EMPLOYER</button></a>
+                </div>
+                <div class="button-two">
+                    <a href="#"></a><button type="button" class="btn job-seekers-btn">JOB SEEKERS</button></a>
+                </div>
+            </div>
+        </div>
+       </div>
+
        <!-- button section end -->
 
        <!-- working process section start -->
-            
+            <section class="working-process-section">
+                <div class="container">
+                    <div class="row row-cols-1">
+                        <div class="col wp-title">
+                            <h2>Working Process</h2>
+                        </div>
+                        <div class="col icon-box d-flex">
+                            <div class="col-3">
+                                <div class="wp-icon">
+                                    <img src="./assets/images/submit-document.svg" alt="">
+                                </div>
+                                <div class="wp-text">
+                                    <h3>Submit your documents</h3>
+                                    <p>Sourcing, Application, Assessment, Verification of documents </p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="wp-icon">
+                                    <img src="./assets/images/online-interview.svg" alt="">
+                                </div>
+                                <div class="wp-text">
+                                    <h3>Online Interview</h3>
+                                    <p>Interview for language training<br>program selection.</p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="wp-icon">
+                                    <img src="./assets/images/training.svg" alt="">
+                                </div>
+                                <div class="wp-text">
+                                    <h3>Training and Assessment</h3>
+                                    <p>Finnish language training for pass the basic B1 finish language test</p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="wp-icon">
+                                    <img src="./assets/images/offer-letter.svg" alt="">
+                                </div>
+                                <div class="wp-text">
+                                    <h3>Get Offer Letter</h3>
+                                    <p>Get the offer letter to process visa application</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
        <!-- working process section start -->
+
+       <script src="https://kit.fontawesome.com/1fdc5f4535.js" crossorigin="anonymous"></script>
 </body>
 </html>
