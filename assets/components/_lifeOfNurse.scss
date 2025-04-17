@@ -1,0 +1,35 @@
+@import "../variable/variables";
+
+.lifeOfNurseWrapper{
+    background-color: #19410F;
+    padding: 100px 0px;
+
+    .lon-content{
+        padding: 20px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+
+        h2{
+            font-family: $font-outfit;
+            font-size: 42px;
+            font-weight: 800;
+            color: $white-color;
+        }
+        p{
+            font-size: 26px;
+            font-family: $font-outfit;
+            color: $white-color;
+        }
+
+        .lon-btn-green{
+            padding: 18px 75px;
+            background-color: $bg-color;
+            color: $black-color;
+            font-size: 18px;
+            font-family: $font-outfit;
+            font-weight: 500;
+            border: 0px;
+        }
+    }
+}

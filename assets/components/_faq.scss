@@ -1,0 +1,41 @@
+@import url("../variable/accordion.scss");
+.faq-wrapper{
+    background-color: $bg-color;
+    padding: 100px 0px;
+
+    .faq-area{
+
+        background-color: $bg-color;
+        h2{
+            font-family: $font-outfit;
+            font-size: 42px;
+            font-weight: 800;
+            color: $black-color;
+            text-align: center;
+            
+        }
+        .accordion{
+            padding-top: 50px;
+            --bs-accordion-btn-bg: #CAE0C1;
+
+            .accordion-button{
+                font-family: $font-outfit;
+                font-size: 26px;
+                font-weight: 500;
+                padding-bottom: 30px;
+
+                i{
+                    margin-right: 10px;
+                }
+            }
+            .accordion-button::after{
+                display: none;
+            }
+            .accordion-body{
+                font-family: $font-outfit;
+                font-size: 26px;
+                font-weight: 400;
+            }
+        }
+    }
+}

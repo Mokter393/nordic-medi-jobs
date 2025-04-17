@@ -5,11 +5,11 @@
     padding-top: 70px;
     .container{
         .row{
-            .col{
+            .col-sm-auto{
                 .banner-text{
                     height: auto;
-            gap: 8px;
-            
+                    align-items: center;
+                    gap: 8px;
             h1{
                 font-family: $font-outfit;
                 font-size: 70px;
@@ -34,6 +34,10 @@
             }
 
                 }
+            }
+            .banner-image{
+                justify-content: end;
+                text-align: right;
             }
         }
     }

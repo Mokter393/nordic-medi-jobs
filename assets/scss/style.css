@@ -1,4 +1,5 @@
 /** header section start **/
+@import url("../variable/accordion.scss");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 .header-section .top-header {
@@ -6,13 +7,7 @@
   width: 100%;
   padding: 10px 0px;
 }
-.header-section .top-header .top-main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header-section .top-header .top-main-header .contact-info {
-  display: flex;
+.header-section .top-header .contact-info {
   gap: 32px;
   color: #FFFFFF;
   font-family: "Outfit", sans-serif;
@@ -20,10 +15,10 @@
   font-weight: 500;
   align-items: center;
 }
-.header-section .top-header .top-main-header .contact-info p {
+.header-section .top-header .contact-info p {
   margin-bottom: 0px;
 }
-.header-section .top-header .top-main-header .social-icon {
+.header-section .top-header .social-icon {
   display: flex;
   gap: 18px;
   align-items: center;
@@ -35,17 +30,17 @@
   padding: 20px 0px;
   align-items: center;
 }
-.header-section .bottom-header .bottom-main-header .main-navbar {
+.header-section .bottom-header .container .main-navbar {
   align-items: center;
 }
-.header-section .bottom-header .bottom-main-header .nav-logo-img {
+.header-section .bottom-header .container .main-navbar .container .nav-logo-img {
   width: 195px;
   height: auto;
 }
-.header-section .bottom-header .bottom-main-header .nav-items {
+.header-section .bottom-header .container .main-navbar .container .nav-items {
   justify-content: end;
 }
-.header-section .bottom-header .bottom-main-header .nav-item-active {
+.header-section .bottom-header .container .main-navbar .container .nav-items .navbar-nav .nav-item-active {
   font-size: 18px;
   font-family: "Outfit", sans-serif;
   font-weight: 500;
@@ -53,7 +48,7 @@
   display: flex;
   align-items: center;
 }
-.header-section .bottom-header .bottom-main-header .nav-item {
+.header-section .bottom-header .container .main-navbar .container .nav-items .navbar-nav .nav-item {
   font-size: 18px;
   font-family: "Outfit", sans-serif;
   font-weight: 500;
@@ -61,7 +56,7 @@
   display: flex;
   align-items: center;
 }
-.header-section .bottom-header .bottom-main-header .apply-now-btn {
+.header-section .bottom-header .container .main-navbar .container .nav-items .navbar-nav .apply-now-btn {
   padding: 18px 56px;
   background-color: #188100;
   color: #FFFFFF;
@@ -76,23 +71,24 @@
   background-color: #CAE0C1;
   padding-top: 70px;
 }
-.bannersection .container .row .col .banner-text {
+.bannersection .container .row .col-sm-auto .banner-text {
   height: auto;
+  align-items: center;
   gap: 8px;
 }
-.bannersection .container .row .col .banner-text h1 {
+.bannersection .container .row .col-sm-auto .banner-text h1 {
   font-family: "Outfit", sans-serif;
   font-size: 70px;
   font-weight: 700;
   padding-bottom: 10px;
 }
-.bannersection .container .row .col .banner-text h4 {
+.bannersection .container .row .col-sm-auto .banner-text h4 {
   font-family: "Outfit", sans-serif;
   font-size: 30px;
   font-weight: 400;
   padding-bottom: 10px;
 }
-.bannersection .container .row .col .banner-text .learn-more-btn {
+.bannersection .container .row .col-sm-auto .banner-text .learn-more-btn {
   padding: 18px 75px;
   background-color: #EE7A03;
   color: #FFFFFF;
@@ -100,6 +96,10 @@
   font-family: "Outfit", sans-serif;
   font-weight: 500;
   border: 0px;
+}
+.bannersection .container .row .banner-image {
+  justify-content: end;
+  text-align: right;
 }
 
 .btn-section {
@@ -173,6 +173,188 @@
   font-size: 18px;
   font-weight: 400;
   text-align: center;
+}
+
+.whyFinlandMain {
+  padding: 100px 0px;
+  background-image: linear-gradient(to bottom, rgba(1, 6, 32, 0.52), rgba(0, 0, 0, 0.73)), url("../images/why-finland-background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.whyFinlandMain .wf-content-wrapper h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.whyFinlandMain .wf-content-wrapper img {
+  width: 100%;
+  background-color: black;
+}
+.whyFinlandMain .wf-content-wrapper .list-item-left, .whyFinlandMain .wf-content-wrapper .list-item-right {
+  color: #FFFFFF;
+  align-items: center;
+}
+.whyFinlandMain .wf-content-wrapper .list-item-left ul li, .whyFinlandMain .wf-content-wrapper .list-item-right ul li {
+  margin-bottom: 14px;
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  list-style: none;
+}
+.whyFinlandMain .wf-content-wrapper .list-item-left ul li i, .whyFinlandMain .wf-content-wrapper .list-item-right ul li i {
+  font-size: 8px;
+}
+
+.skilled-nurse-wrapper {
+  background-color: #CAE0C1;
+  padding: 100px 0px;
+}
+.skilled-nurse-wrapper .sn-content {
+  padding: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.skilled-nurse-wrapper .sn-content h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: #13230B;
+}
+.skilled-nurse-wrapper .sn-content p {
+  font-size: 26px;
+  font-family: "Outfit", sans-serif;
+  color: #3E4427;
+}
+.skilled-nurse-wrapper .sn-content .ap-btn-orange {
+  padding: 18px 75px;
+  background-color: #EE7A03;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  border: 0px;
+}
+
+.lifeOfNurseWrapper {
+  background-color: #19410F;
+  padding: 100px 0px;
+}
+.lifeOfNurseWrapper .lon-content {
+  padding: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.lifeOfNurseWrapper .lon-content h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+.lifeOfNurseWrapper .lon-content p {
+  font-size: 26px;
+  font-family: "Outfit", sans-serif;
+  color: #FFFFFF;
+}
+.lifeOfNurseWrapper .lon-content .lon-btn-green {
+  padding: 18px 75px;
+  background-color: #CAE0C1;
+  color: #13230B;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  border: 0px;
+}
+
+.faq-wrapper {
+  background-color: #CAE0C1;
+  padding: 100px 0px;
+}
+.faq-wrapper .faq-area {
+  background-color: #CAE0C1;
+}
+.faq-wrapper .faq-area h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: #13230B;
+  text-align: center;
+}
+.faq-wrapper .faq-area .accordion {
+  padding-top: 50px;
+  --bs-accordion-btn-bg: #CAE0C1;
+}
+.faq-wrapper .faq-area .accordion .accordion-button {
+  font-family: "Outfit", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.faq-wrapper .faq-area .accordion .accordion-button i {
+  margin-right: 10px;
+}
+.faq-wrapper .faq-area .accordion .accordion-button::after {
+  display: none;
+}
+.faq-wrapper .faq-area .accordion .accordion-body {
+  font-family: "Outfit", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.footer-top-wrapper {
+  background-color: #19410F;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+}
+.footer-top-wrapper .footer-logo {
+  margin-bottom: 30px;
+}
+.footer-top-wrapper .footer-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.footer-top-wrapper .footer-content a {
+  text-decoration: none;
+}
+.footer-top-wrapper .footer-content a p {
+  font-family: "Outfit", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.footer-top-wrapper .footer-icon img {
+  width: 48px;
+  height: 48px;
+  margin-right: 43px;
+}
+
+.footer-bottom-wrapper {
+  padding: 15px 0px 8px 0px;
+  background-color: #EE7A03;
+  text-align: center;
+}
+.footer-bottom-wrapper p {
+  font-family: "Outfit", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.footer-bottom-wrapper p span a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 * {
