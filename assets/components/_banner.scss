@@ -45,6 +45,19 @@
 
 
 
+@media screen and (max-width:576px) {
+    .banner-text{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-text h1{
+            font-size: 42px !important;
+    }
+}
+
+
 
 // .bannersection{
 //     background-color: $bg-color;

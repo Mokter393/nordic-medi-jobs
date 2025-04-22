@@ -67,6 +67,28 @@
 }
 
 /** header section end **/
+@media screen and (max-width: 576px) {
+  .contact-info {
+    flex-direction: column;
+    gap: 0px !important;
+    padding: 0px 20px;
+    align-items: start;
+  }
+  .social-icon-area {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .banner-text {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner-text h1 {
+    font-size: 42px !important;
+  }
+}
 .bannersection {
   background-color: #CAE0C1;
   padding-top: 70px;
@@ -102,6 +124,17 @@
   text-align: right;
 }
 
+@media screen and (max-width: 576px) {
+  .banner-text {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner-text h1 {
+    font-size: 42px !important;
+  }
+}
 .btn-section {
   background-color: #FFFFFF;
   padding: 70px 0px;
@@ -213,6 +246,17 @@
   font-size: 8px;
 }
 
+@media screen and (max-width: 576px) {
+  .whyFinlandMain .wf-content-wrapper h2 {
+    padding-bottom: 30px;
+  }
+  .wf-content-area {
+    flex-direction: column;
+  }
+  .lon-video iframe {
+    width: 400px;
+  }
+}
 .skilled-nurse-wrapper {
   background-color: #CAE0C1;
   padding: 100px 0px;

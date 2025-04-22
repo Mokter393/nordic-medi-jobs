@@ -48,3 +48,19 @@
         }
     }
 }
+
+
+@media screen and (max-width:576px) {
+    
+    .whyFinlandMain .wf-content-wrapper h2 {
+        padding-bottom: 30px;
+    }
+
+    .wf-content-area{
+        flex-direction: column;
+    }
+
+    .lon-video iframe{
+        width: 400px;
+    }
+}
